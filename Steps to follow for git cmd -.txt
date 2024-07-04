@@ -7,3 +7,27 @@ open project folder ->
 -- git status
 -- git commit -m "versioning 1"
 -- git log
+-- git add origin <http..> 
+-- git push origin -u master
+
+
+-- git commit -m "versioning 1" --amend  // whenever if we need any changes in code after commit then we can use amend command for create versioning again                                                                                                            without crearing again.  
+
+-- git reset .  // used to reset all the previous changes and returns into working area from staging area
+
+-- git add .
+-- git commit -m "versioning 1 updated" --> used to override  
+-- git log -all --graph // to see the branch and version changes in command line
+
+Git Branching :-
+-- git checkout -b <new_branch_name>
+
+For Creating branch & pull :-
+-- git checkout -b working/version1
+-- git push origin working/version1
+   // Do the neccessary changes and save it.
+-- git add .
+-- git commit -m "Updated Version"
+-- git push origin working/version1
+
+check in gitHub, create pull request, review it then merge the code
